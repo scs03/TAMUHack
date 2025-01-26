@@ -15,6 +15,9 @@ export default {
     },
   },
   plugins: [
-    require('daisyui'),
+    require("daisyui"), // Include DaisyUI
   ],
+  daisyui: {
+    themes: ["light", "dark"], // Enable themes
+  },
 } satisfies Config;
