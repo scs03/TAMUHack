@@ -19,7 +19,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="btm-nav border-t border-gray-300 ">
+        <div className="btm-nav border-t   border-gray-300 ">
             <button
                 onClick = {() => handleClick('dashboard')}
             >
